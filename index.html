@@ -5,15 +5,171 @@
     <meta name="viewport" content="1000" />
     <title>LookShop</title>
     <link rel="stylesheet" href="index.css" />
+    <link
+      href="http://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- Подключаем CSS слайдера -->
+    <link rel="stylesheet" href="simple-adaptive-slider.css" />
+    <!-- Подключаем JS слайдера -->
+    <script defer src="simple-adaptive-slider.js"></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        // инициализация слайдера
+        new ItcSimpleSlider(".itcss", {
+          loop: true,
+          autoplay: true,
+          interval: 5000,
+          swipe: true,
+        });
+      });
+    </script>
   </head>
 
   <body>
+    <!-- ------------------------------- -->
     <div class="header">
       <div class="left">
+        <div class="text">
+          <p>CUSTOM CARE: 888-88-888</p>
+        </div>
       </div>
 
       <div class="right">
+        <div class="text">
+          <p>$ US</p>
+        </div>
+        <div class="dollarImg">
+          <div>
+            <p>▾</p>
+          </div>
+        </div>
+        <div class="account">
+          <img src="images/accountImage.jpg" alt="" />
+        </div>
+        <div class="accountText">
+          <p>MY ACCOUNT</p>
+        </div>
+        <div class="lupa">
+          <div>
+            <img src="images/Shape1.png" alt="" class="lupaImg" />
+          </div>
+        </div>
+      </div>
     </div>
-
+    <!-- ------------------------------- -->
+    <div class="preMain">
+      <div class="logotip">
+        <img src="images/logo.png" alt="" />
+      </div>
+      <div class="listSelection">
+        <ul>
+          <li class="listItem">new ▾</li>
+          <li class="listItem">designers ▾</li>
+          <li class="listItem">women ▾</li>
+          <li class="listItem">men ▾</li>
+          <li class="listItem">clearence ▾</li>
+        </ul>
+      </div>
+      <div class="cart">
+        <select name="select" id="cart-select">
+          <option value="0" class="selectedNone">Your cart</option>
+        </select>
+        <div class="cart-info">
+          <div class="clear">
+            <img src="images/VectorSmartObject_5.png" alt="" />
+          </div>
+          <div class="clear-items">0 items | $ 0</div>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------------------- -->
+    <div class="main">
+      <div class="itcss">
+        <div class="itcss__wrapper">
+          <div class="itcss__items">
+            <div class="itcss__item">
+              <div class="mainItem">
+                <img class="img-fluid" src="images/slide.jpg" alt="" />
+                <div class="img-text-container">
+                  <img class="img-text" src="images/slicerImgText.jpg" alt="" />
+                </div>
+                <div class="buttonSlide">
+                  <button class="buttonStyle">SHOP NOW ▸</button>
+                </div>
+              </div>
+              <div class="slideButtom"></div>
+            </div>
+            <div class="itcss__item">
+              <div class="mainItem">
+                <img class="img-fluid" src="images/slide.jpg" alt="" />
+                <div class="img-text-container">
+                  <img class="img-text" src="images/slicerImgText.jpg" alt="" />
+                </div>
+                <div class="buttonSlide">
+                  <button class="buttonStyle">SHOP NOW ▸</button>
+                </div>
+              </div>
+              <div class="slideButtom"></div>
+            </div>
+            <div class="itcss__item">
+              <div class="mainItem">
+                <img class="img-fluid" src="images/slide.jpg" alt="" />
+                <div class="img-text-container">
+                  <img class="img-text" src="images/slicerImgText.jpg" alt="" />
+                </div>
+                <div class="buttonSlide">
+                  <button class="buttonStyle">SHOP NOW ▸</button>
+                </div>
+              </div>
+              <div class="slideButtom"></div>
+            </div>
+            <div class="itcss__item">
+              <div class="mainItem">
+                <img class="img-fluid" src="images/slide.jpg" alt="" />
+                <div class="img-text-container">
+                  <img class="img-text" src="images/slicerImgText.jpg" alt="" />
+                </div>
+                <div class="buttonSlide">
+                  <button class="buttonStyle">SHOP NOW ▸</button>
+                </div>
+              </div>
+              <div class="slideButtom"></div>
+            </div>
+            <div class="itcss__item">
+              <div class="mainItem">
+                <img class="img-fluid" src="images/slide.jpg" alt="" />
+                <div class="img-text-container">
+                  <img class="img-text" src="images/slicerImgText.jpg" alt="" />
+                </div>
+                <div class="buttonSlide">
+                  <button class="buttonStyle">SHOP NOW ▸</button>
+                </div>
+              </div>
+              <div class="slideButtom"></div>
+            </div>
+          </div>
+        </div>
+        <!-- Стрелки для перехода к предыдущему и следующему слайду -->
+        <a
+          class="itcss__control itcss__control_prev"
+          href="#"
+          role="button"
+          data-slide="prev"
+        ></a>
+        <a
+          class="itcss__control itcss__control_next"
+          href="#"
+          role="button"
+          data-slide="next"
+        ></a>
+      </div>
+    </div>
+    <!-- ------------------------------- -->
+    <div class="secondHeader"></div>
+    <!-- ------------------------------- -->
   </body>
 </html>

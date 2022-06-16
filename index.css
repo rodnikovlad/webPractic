@@ -1,0 +1,224 @@
+body {
+  margin: 0 auto;
+  display: block;
+}
+
+.header {
+  margin: 0 auto;
+  background-color: #000000;
+  display: flex;
+  height: 30px;
+}
+
+.left {
+  float: left;
+  display: flex;
+  align-items: center;
+}
+
+.left .text p {
+  display: block;
+  color: white;
+  margin-left: 100%;
+  font-size: 11px;
+  text-align: center;
+  white-space: nowrap;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.right {
+  float: right;
+  display: flex;
+  align-items: center;
+  margin-left: 60%;
+  border-left: 1px solid rgb(142, 140, 140);
+  padding-left: 15px;
+}
+.right .text p {
+  display: flex;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  font-size: 11px;
+  white-space: nowrap;
+}
+
+.dollarImg {
+  display: flex;
+  margin: 0 auto;
+  color: white;
+  margin-left: 3px;
+
+  border-right: 1px solid rgb(142, 140, 140);
+  padding-right: 8px;
+  height: 100%;
+  align-items: center;
+}
+.dollarImg p {
+  padding-bottom: 5px;
+}
+.account {
+  display: flex;
+  margin: 0 auto;
+  margin-left: 10%;
+}
+
+.accountText p {
+  margin-left: 100px;
+  display: flex;
+  margin: 0 auto;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  white-space: nowrap;
+}
+
+.lupa {
+  padding-top: 5px;
+  display: flex;
+  margin: 0 auto;
+  margin-left: 5%;
+  border-right: 1px solid rgb(142, 140, 140);
+  padding-right: 8px;
+  border-left: 1px solid rgb(142, 140, 140);
+  padding-left: 8px;
+  align-items: center;
+}
+
+/*-- ------------------------------- --> */
+.preMain {
+  display: flex;
+}
+
+.logotip {
+  margin-left: 11%;
+  margin-top: 3%;
+}
+
+.listSelection {
+  display: flex;
+  margin-left: 5%;
+  margin-top: 2%;
+  width: 710px;
+}
+
+.listItem {
+  float: left;
+  list-style-type: none;
+  margin-left: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cart {
+  float: right;
+  margin-right: 140px;
+}
+#cart-select {
+  display: flex;
+  width: 200px;
+  height: 31px;
+  padding: 8px;
+  border: 1px solid #c7c7c7;
+  color: #5c5c5c;
+  margin-top: 20px;
+}
+.cart-info {
+  width: 184px;
+  height: 18px;
+  border: 1px solid #c7c7c7;
+  border-top: 0;
+  padding: 7px;
+  display: flex;
+  justify-content: space-between;
+  color: 5c5c5c;
+  font-size: 12px;
+  user-select: none;
+  margin: 0 auto;
+  display: flex;
+}
+
+.clear {
+  margin-top: -1px;
+}
+
+.clear-items {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(142, 140, 140);
+  text-align: center;
+  display: flex;
+  margin-top: 2px;
+}
+
+.selectedNone {
+  display: none;
+}
+/* ---------------------------------- */
+.main {
+  margin-top: 20px;
+  min-width: 1200px;
+}
+
+.itcss {
+  min-width: 1200px;
+}
+
+.itcss__item{
+width: 200px;
+}
+
+.itcss__wrapper {
+  width: 1200px;
+  height: 515px;
+  background-color: #fff;
+}
+/* дополнительные стили для этого макета */
+
+.img-fluid {
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+  margin-top: -10px;
+}
+
+.img-text{
+    width: 380px;
+    height: auto;
+}
+
+.img-text-container{
+    margin-top: -400px;
+    margin-left: 160px;
+}
+
+.buttonStyle{
+    background: #ffa687;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 17px 25px;
+    border: 0;
+    border-bottom: 3px solid #e88e6e;
+    font-size: 16px;
+    cursor: pointer;
+    background: linear-gradient(90deg, #e88e6e 50%, #ffa687 50%);
+    background-position: 100% 0;
+    background-size: 300%;
+    transition: 0.5s background;
+    margin-left: 260px;
+    width: 150px;
+    white-space: nowrap;
+}
+
+.buttonStyle--form {
+    padding: 1px 10px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+.buttonStyle:hover {
+    background-position: 0 100%;
+  }
+/* ---------------------------------- */
+.secondHeader{
+    display: flex;
+    background-color: #c7c7c7;
+}
