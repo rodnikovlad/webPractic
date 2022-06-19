@@ -1,7 +1,7 @@
 body {
   margin: 0 auto;
   display: block;
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
 }
 
 .container {
@@ -9,6 +9,9 @@ body {
   height: 100%;
   margin: 0px auto;
   position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 .header {
   margin: 0 auto;
@@ -473,17 +476,15 @@ body {
 }
 /* ---------------------------------- */
 
-.emblemOfScale
-{
+.emblemOfScale {
   width: 100%;
-
 }
 
-.beforeImg{
+.beforeImg {
   float: left;
 }
 
-.afterImg{
+.afterImg {
   float: right;
 }
 
@@ -507,7 +508,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .badget__text {
   font-size: 27px;
@@ -526,7 +527,7 @@ body {
 }
 .badget::after,
 .badget::before {
-  content: '';
+  content: "";
   height: 1px;
   width: 350%;
   top: 50%;
@@ -538,4 +539,33 @@ body {
 }
 .badget::before {
   right: calc(100% + 20px);
+}
+/* ---------------------------------- */
+
+.bottomPart {
+  background-color: rgb(111, 111, 111);
+}
+.bottomPart .text p {
+  font-size: 8px;
+}
+
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.333%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.sales {
+  margin-bottom: 40px;
+}
+
+.sales__col {
+  padding: 10px;
 }
