@@ -13,6 +13,7 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
+
 .header {
   margin: 0 auto;
   background-color: #000000;
@@ -28,7 +29,7 @@ body {
 .left p {
   display: block;
   color: white;
-  margin-left: 50%;
+  margin-left: 100%;
   font-size: 11px;
   text-align: center;
   white-space: nowrap;
@@ -39,7 +40,7 @@ body {
   float: right;
   display: flex;
   align-items: center;
-  margin-left: 60%;
+  margin-left: 59%;
   border-left: 1px solid rgb(142, 140, 140);
   padding-left: 15px;
 }
@@ -69,7 +70,8 @@ body {
 .account {
   display: flex;
   margin: 0 auto;
-  margin-left: 10%;
+  margin-left: 5%;
+  padding-right: 5px;
 }
 
 .accountText p {
@@ -100,13 +102,12 @@ body {
 }
 
 .logotip {
-  margin-left: 6%;
   margin-top: 3%;
 }
 
 .listSelection {
   display: flex;
-  margin-left: 5%;
+
   margin-top: 2%;
   width: 710px;
 }
@@ -120,7 +121,6 @@ body {
 
 .cart {
   float: right;
-  margin-right: 140px;
 }
 #cart-select {
   display: flex;
@@ -132,8 +132,6 @@ body {
   margin-top: 20px;
 }
 .cart-info {
-  width: 184px;
-  height: 18px;
   border: 1px solid #c7c7c7;
   border-top: 0;
   padding: 7px;
@@ -568,4 +566,55 @@ body {
 
 .sales__col {
   padding: 10px;
+}
+/* ---------------------------------- */
+.bottomTextBrands {
+  position: relative;
+  padding-top: 30px;
+
+}
+
+.bottomTextBrands span{
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  margin-left: 350px;
+  position: absolute;
+  left: 40px;
+  top: 29px;
+  background: #fff;
+  padding: 0 10px;
+}
+/* ---------------------------------- */
+.brands{
+  width: 100%;
+  display: block;
+  margin-top: 35px;
+  margin-left: 30px;
+}
+.itemBrand{
+  display:inline;
+}
+
+.brandImg{
+  width: auto;
+  height: 45px;
+}
+
+.bottomRow{
+  margin-top: 25px;
+}
+/* ---------------------------------- */
+.about {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.about__title {
+  margin-top: 0;
+}
+
+.about__paragraph {
+  color: #5c5c5c;
 }
