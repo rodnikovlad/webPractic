@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
   <head>
     <meta charset="utf-8" />
@@ -9,24 +10,13 @@
       href="http://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic"
       rel="stylesheet"
       type="text/css"
+      
     />
-
-    <!-- Подключаем CSS слайдера -->
-    <link rel="stylesheet" href="simple-adaptive-slider.css" />
-    <!-- Подключаем JS слайдера -->
-    <script defer src="simple-adaptive-slider.js"></script>
-
-    <script>
-      document.addEventListener("DOMContentLoaded", () => {
-        // инициализация слайдера
-        new ItcSimpleSlider(".itcss", {
-          loop: true,
-          autoplay: true,
-          interval: 5000,
-          swipe: true,
-        });
-      });
-    </script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
   </head>
 
   <body>
@@ -60,116 +50,162 @@
         </div>
       </div>
     </div>
+
     <!-- ------------------------------- -->
-    <div class="preMain">
-      <div class="logotip">
-        <img src="images/logo.png" alt="" />
-      </div>
-      <div class="listSelection">
-        <ul>
-          <li class="listItem">new ▾</li>
-          <li class="listItem">designers ▾</li>
-          <li class="listItem">women ▾</li>
-          <li class="listItem">men ▾</li>
-          <li class="listItem">clearence ▾</li>
-        </ul>
-      </div>
-      <div class="cart">
-        <select name="select" id="cart-select">
-          <option value="0" class="selectedNone">Your cart</option>
-        </select>
-        <div class="cart-info">
-          <div class="clear">
-            <img src="images/VectorSmartObject_5.png" alt="" />
+    <div class="container">
+      <div class="preMain">
+        <div class="logotip">
+          <img src="images/logo.png" alt="" />
+        </div>
+        <div class="listSelection">
+          <ul>
+            <li class="listItem">new ▾</li>
+            <li class="listItem">designers ▾</li>
+            <li class="listItem">women ▾</li>
+            <li class="listItem">men ▾</li>
+            <li class="listItem">clearence ▾</li>
+          </ul>
+        </div>
+        <div class="cart">
+          <select name="select" id="cart-select">
+            <option value="0" class="selectedNone">Your cart</option>
+          </select>
+          <div class="cart-info">
+            <div class="clear">
+              <img src="images/VectorSmartObject_5.png" alt="" />
+            </div>
+            <div class="clear-items">0 items | $ 0</div>
           </div>
-          <div class="clear-items">0 items | $ 0</div>
+        </div>
+      </div>
+      <!-- ------------------------------- -->
+      <div class="main">
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="pic">
+                <img src="images/slide.jpg" />
+                <img class="swiper-text" src="images/slicerImgText.jpg" />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="pic">
+                <img src="images/slide.jpg" />
+                <img class="swiper-text" src="images/slicerImgText.jpg" />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="pic">
+                <img src="images/slide.jpg" />
+                <img class="swiper-text" src="images/slicerImgText.jpg" />
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="pic">
+                <img src="images/slide.jpg" />
+                <img class="swiper-text" src="images/slicerImgText.jpg" />
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="pic">
+                <img src="images/slide.jpg" />
+                <img class="swiper-text" src="images/slicerImgText.jpg" />
+              </div>
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+        <style>
+          .pic {
+            max-width: 100%;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        </style>
+        <script>
+          const swiper = new Swiper(".swiper", {
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+              el: ".swiper-pagination",
+            },
+
+            // Navigation arrows
+            navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+            },
+          });
+        </script>
+        <style>
+          .swiper {
+            width: 100%;
+            max-width: 1200px;
+          }
+
+          .swiper-text {
+            margin-bottom: 100px;
+            position: absolute;
+            max-width: 380px;
+            transform: translateX(-60%);
+          }
+        </style>
+      </div>
+      <!-- ------------------------------- -->
+      <div class="secondHeader">
+        <div class="first">
+          <p>Stay updated</p>
+          <input type="text" placeholder="Your email adress" />
+          <button class="btn" type="submit">+</button>
+        </div>
+
+        <div class="second">
+          <p>Find us here</p>
+          <div class="icons">
+            <div class="fisrtImg">
+              <img class="itemImg" src="images/Shape2.png" alt="" />
+            </div>
+            <div class="secondImg">
+              <img class="itemImg" src="images/Shape3.png" alt="" />
+            </div>
+            <div class="thirdImg">
+              <img class="itemImg" src="images/Shape4.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ------------------------------- -->
+      <div class="containerOfAd">
+        <div class="leftBlock">
+          <img src="images/ph1_03.jpg" alt="" class="leftImg" />
+        </div>
+        <div class="rightBlock">
+          <div class="upBlock">
+              <img src="images/ph1_04.jpg" alt="" class="leftImg">
+          </div>
+          <div class="bottomBlock">
+            <div class="leftBottomBlock">
+              <img src="images/ph1_05.jpg" alt="" class="leftImg">
+            </div>
+            <div class="rightBottomBlock">
+              <img src="images/ph1_06.jpg" alt="" class="leftImg">
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <!-- ------------------------------- -->
-    <div class="main">
-      <div class="itcss">
-        <div class="itcss__wrapper">
-          <div class="itcss__items">
-            <div class="itcss__item">
-              <div class="mainItem">
-                <img class="img-fluid" src="images/slide.jpg" alt="" />
-                <div class="img-text-container">
-                  <img class="img-text" src="images/slicerImgText.jpg" alt="" />
-                </div>
-                <div class="buttonSlide">
-                  <button class="buttonStyle">SHOP NOW ▸</button>
-                </div>
-              </div>
-              <div class="slideButtom"></div>
-            </div>
-            <div class="itcss__item">
-              <div class="mainItem">
-                <img class="img-fluid" src="images/slide.jpg" alt="" />
-                <div class="img-text-container">
-                  <img class="img-text" src="images/slicerImgText.jpg" alt="" />
-                </div>
-                <div class="buttonSlide">
-                  <button class="buttonStyle">SHOP NOW ▸</button>
-                </div>
-              </div>
-              <div class="slideButtom"></div>
-            </div>
-            <div class="itcss__item">
-              <div class="mainItem">
-                <img class="img-fluid" src="images/slide.jpg" alt="" />
-                <div class="img-text-container">
-                  <img class="img-text" src="images/slicerImgText.jpg" alt="" />
-                </div>
-                <div class="buttonSlide">
-                  <button class="buttonStyle">SHOP NOW ▸</button>
-                </div>
-              </div>
-              <div class="slideButtom"></div>
-            </div>
-            <div class="itcss__item">
-              <div class="mainItem">
-                <img class="img-fluid" src="images/slide.jpg" alt="" />
-                <div class="img-text-container">
-                  <img class="img-text" src="images/slicerImgText.jpg" alt="" />
-                </div>
-                <div class="buttonSlide">
-                  <button class="buttonStyle">SHOP NOW ▸</button>
-                </div>
-              </div>
-              <div class="slideButtom"></div>
-            </div>
-            <div class="itcss__item">
-              <div class="mainItem">
-                <img class="img-fluid" src="images/slide.jpg" alt="" />
-                <div class="img-text-container">
-                  <img class="img-text" src="images/slicerImgText.jpg" alt="" />
-                </div>
-                <div class="buttonSlide">
-                  <button class="buttonStyle">SHOP NOW ▸</button>
-                </div>
-              </div>
-              <div class="slideButtom"></div>
-            </div>
-          </div>
-        </div>
-        <!-- Стрелки для перехода к предыдущему и следующему слайду -->
-        <a
-          class="itcss__control itcss__control_prev"
-          href="#"
-          role="button"
-          data-slide="prev"
-        ></a>
-        <a
-          class="itcss__control itcss__control_next"
-          href="#"
-          role="button"
-          data-slide="next"
-        ></a>
-      </div>
-    </div>
-    <!-- ------------------------------- -->
-    <div class="secondHeader"></div>
-    <!-- ------------------------------- -->
   </body>
 </html>
