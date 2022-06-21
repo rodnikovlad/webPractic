@@ -926,6 +926,7 @@ body {
   align-items: center;
 }
 
+
 @media (max-width: 945px) {
   .container {
     display: none;
@@ -944,6 +945,7 @@ body {
     overflow: hidden;
     display: block;
   }
+
 
   .top {
     display: block;
@@ -1055,7 +1057,50 @@ body {
     height: 40px;
   }
   /* -------------------------------- */
+  
+
+  .hotspot{
+    margin-top: 30px;
+  }
+  
+  .containerSec{
+    padding: 0px;
+  }
+
+  .hotspot__header {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  .hotspot__titles {
+    width: 100%;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  .hotspot__title {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
   /* -------------------------------- */
+  .productsMobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffa687;
+    width: 100%;
+    text-align: center;
+  }
+
+  .productImageMobile{
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto
+  }
+
+
   /* -------------------------------- */
   /* -------------------------------- */
 }
+
+
