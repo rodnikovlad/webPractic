@@ -169,7 +169,7 @@ body {
   display: flex;
   width: 100%;
   text-align: left;
-  margin-top: 5%;
+  margin-top: 4%;
   border-top: 1px solid #8c8a8a;
   border-bottom: 1px solid #8c8a8a;
 }
@@ -241,7 +241,7 @@ body {
 }
 
 .textRed {
-  color: #e88e6e;
+  color: #fca993;
 }
 
 .mainBlock{
@@ -261,7 +261,7 @@ body {
 .secondMainText{
     font-size: 35px;
     font-weight: bold;
-    color: #f58c65;
+    color: #fe9071;
 }
 
 .thirdMainText{
@@ -305,31 +305,31 @@ body {
      margin-left: auto;
      width: 30px;
      height: 30px;
-     background-color: #eaecd6;
+     background-color: #eeebe3;
 }
 .imageColor2{
     margin-left: 2px;
     width: 30px;
     height: 30px;
-    background-color: #c19edc;
+    background-color: #cbc1c7;
 }
 .imageColor3{
     margin-left: 2px;
     width: 30px;
     height: 30px;
-    background-color: #ede27d;
+    background-color: #b29b89;
 }
 .imageColor4{
     margin-left: 2px;
     width: 30px;
     height: 30px;
-    background-color: #d3b963;
+    background-color: #978886;
 }
 .imageColor5{
     margin-left: 2px;
     width: 30px;
     height: 30px;
-    background-color: #93cfea;
+    background-color: #cce1ef;
 }
 
 .bottomBlock{
@@ -343,7 +343,7 @@ body {
 .minusButton{
 height: 47px;
 width: 50px;
-background-color: #f58c65;
+background-color: #fe926c;
 border: 0px;
 box-shadow: 0 3px 0 0 #dd6b44;
 color: white;
@@ -360,7 +360,7 @@ color: white;
 .plusButton{
     height: 47px;
     width: 45px;
-    background-color: #f58c65;
+    background-color: #fe926c;
     border: 0px;
     box-shadow: 0 3px 0 0 #dd6b44;
     color: white;
@@ -368,15 +368,152 @@ color: white;
 .addButton{
     height: 50px;
     width: 150px;
-    background-color: #f58c65;
+    background-color: #fe926c;
     border: 0px;
     margin-left: 2%;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 /* ---------------------------------- */
+.advices{
+    display: flex;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #8c8a8a;
+}
+.firstAdvice{
+    display: flex;
+    border-radius: 50%;
+    border: 2px solid #d7c8c4;
+    width: 50px;
+    padding: 20px;
+    height: 50px;
+    background: url(imagesSecond/shape_2.png) no-repeat;
+    background-position: center;
+    margin: 0 auto;
+}
+
+.secondAdvice{
+    display: flex;
+    border-radius: 50%;
+    border: 2px solid #d7c8c4;
+    width: 50px;
+    padding: 20px;
+    height: 50px;
+    background: url(imagesSecond/shape_4.png) no-repeat;
+    background-position: center;
+    margin: 0 auto;
+}
+
+.thirdAdvice{
+    display: flex;
+    border-radius: 50%;
+    border: 2px solid #d7c8c4;
+    width: 50px;
+    padding: 20px;
+    height: 50px;
+    background: url(imagesSecond//shape_3.png) no-repeat;
+    background-position: center;
+    margin: 0 auto;
+}
+
+.fourthAdvice{
+    display: flex;
+    border-radius: 50%;
+    border: 2px solid #d7c8c4;
+    width: 50px;
+    padding: 20px;
+    height: 50px;
+    background: url(imagesSecond/email_2.png) no-repeat;
+    background-position: center;
+    margin: 0 auto;
+}
+
+.advices p{
+    font-size: 10px;
+    font-weight:bold;
+    color: #a3a3a2;
+    margin-left: 35px;
+    margin-top: -8px;
+    white-space: nowrap;
+    
+}
 /* ---------------------------------- */
+.helpers{
+    display: block;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.firstHelp{
+    display: flex;
+    height: 50px;
+    background-color: #ffd4c4;
+}
+.secondHelp{
+    display: flex;
+    height: 50px;
+    background-color: #ffcab8;
+}
+.thirdHelp{
+    display: flex;
+    height: 50px;
+    background-color: #ffaf91;
+}
+.fourthHelp{
+    display: flex;
+    height: 50px;
+    background-color: #fda784;
+}
+.fiveHelp{
+    display: flex;
+    height: 50px;
+    background-color: #fe936a;
+}
+
+.helpers p{
+    width: 20px;
+    height: 20px;
+    padding-top: 3px;
+    padding-left: 1px;
+
+    background-color: #f3bba7;
+    color: white;
+    text-align: center;
+    font-size: 11px;
+    margin-left: 15px;
+    margin-top: 15px;
+    border: 1px solid white;
+}
+
+.helpers span{
+    color: white;
+    margin-top: 19px;
+    font-size: 12px;
+    margin-left: 10px;
+}
 /* ---------------------------------- */
+.relatedBlock{
+    position: relative;
+    padding-top: 30px;
+}
+.text1 {
+    position: absolute;
+    left: 40px;
+    top: 29px;
+    background: #fff;
+    padding: 0 10px;
+    margin-left: 36%;
+}
+/* ---------------------------------- */
+.row button{
+    width: 120px;
+    height: 30px;
+    background-color: #fe926c;
+    border: 0px;
+    color: white;
+}
+  /* ---------------------------------- */
 * {
   box-sizing: border-box;
 }
