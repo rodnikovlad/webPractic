@@ -366,8 +366,8 @@ cursor: pointer;
 
 .textRightBottom {
   display: block;
-
-  z-index: 10;
+  position: relative;
+  z-index: 30;
   margin-top: -70px;
   margin-left: 00px;
   color: white;
@@ -378,6 +378,7 @@ cursor: pointer;
   font-weight: bolder;
   font-size: 22px;
   margin-top: 150px;
+  z-index: 30;
 }
 
 .textRightBottom button {
@@ -390,6 +391,7 @@ cursor: pointer;
   border: none;
   margin-top: 5px;
   margin-left: 20px;
+  z-index: 30;
 }
 
 .slogan__circle {
