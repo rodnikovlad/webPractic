@@ -4,6 +4,31 @@ body {
   font-family: "Arial", sans-serif;
 }
 
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
+  color: rgb(185, 176, 176);
+}
+
+.swiper-button-prev:after, .swiper-rtl .swiper-button-prev:after{
+  color: rgb(185, 176, 176);
+}
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+  background-color: #e88e6e;  
+  width: 10px;
+  height: 10px;
+}
+
+.swiper-pagination-bullet swiper-pagination-bullet-active {
+  background-color: #e89c80; 
+  margin-left: 10px;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+  margin-top: 30px;
+}
+.swiper-pagination{
+  position:static !important;
+}
+
 .mobileHeader {
   display: none;
   height: 100%;
@@ -31,6 +56,7 @@ body {
   font-size: 11px;
   white-space: nowrap;
   font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
 }
 
 
@@ -45,31 +71,37 @@ body {
     font-size: 11px;
     color: white;
     padding-left: 10px;
+    cursor: pointer;
 }
 .pal{
 height: 35px;
 border-left: 1px solid rgb(142, 140, 140);
+cursor: pointer;
 }
 .strVerh{
     color: white;
     font-size: 11px;
     margin-top: 5px;
     padding-right: 10px;
+    cursor: pointer;
 }
 
 .accountImg{
     padding-left: 10px;
+    cursor: pointer;
 }
 
 .textAccount{
     color: white;
     font-size: 11px;
     padding-right: 10px;
+    cursor: pointer;
 }
 
 .lupaImg{
     padding-left: 10px;
     padding-right: 10px;
+    cursor: pointer;
 }
 .maxHeader {
   width: 100%;
@@ -97,6 +129,7 @@ border-left: 1px solid rgb(142, 140, 140);
 
 .logotip {
   margin-top: 3%;
+  cursor: pointer;
 }
 
 .listSelection {
@@ -112,6 +145,8 @@ border-left: 1px solid rgb(142, 140, 140);
   list-style-type: none;
   margin-left: 30px;
   font-family: Arial, Helvetica, sans-serif;
+  margin-left: 40px;
+  cursor: pointer;
 }
 
 .cart {
@@ -242,6 +277,7 @@ border-left: 1px solid rgb(142, 140, 140);
   margin-top: -25px;
   display: flex;
   padding-left: 7px;
+  cursor: pointer;
 }
 
 .secondHeader .second {
@@ -268,6 +304,7 @@ border-left: 1px solid rgb(142, 140, 140);
 .icons .itemImg {
   margin-left: 20px;
   margin-top: 13px;
+  cursor: pointer;
 }
 
 .firstImg {

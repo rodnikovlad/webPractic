@@ -24,51 +24,58 @@ body {
 }
 
 .left p {
-    margin-top: 9px;
+  margin-top: 9px;
   display: block;
   color: white;
   font-size: 11px;
   white-space: nowrap;
   font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  cursor: pointer;
 }
-
 
 .right {
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-    padding-left: 15px;
-  }
-
-.UStext{
-    font-size: 11px;
-    color: white;
-    padding-left: 10px;
-}
-.pal{
-height: 35px;
-border-left: 1px solid rgb(142, 140, 140);
-}
-.strVerh{
-    color: white;
-    font-size: 11px;
-    margin-top: 5px;
-    padding-right: 10px;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  padding-left: 15px;
 }
 
-.accountImg{
-    padding-left: 10px;
+.UStext {
+  font-size: 11px;
+  color: white;
+  padding-left: 10px;
+  cursor: pointer;
+}
+.pal {
+  height: 35px;
+  border-left: 1px solid rgb(142, 140, 140);
+  cursor: pointer;
+}
+.strVerh {
+  color: white;
+  font-size: 11px;
+  margin-top: 5px;
+  padding-right: 10px;
+  cursor: pointer;
 }
 
-.textAccount{
-    color: white;
-    font-size: 11px;
-    padding-right: 10px;
+.accountImg {
+  padding-left: 10px;
+  cursor: pointer;
 }
 
-.lupaImg{
-    padding-left: 10px;
-    padding-right: 10px;
+.textAccount {
+  color: white;
+  font-size: 11px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.lupaImg {
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
 }
 .maxHeader {
   width: 100%;
@@ -96,6 +103,7 @@ border-left: 1px solid rgb(142, 140, 140);
 
 .logotip {
   margin-top: 3%;
+  cursor: pointer;
 }
 
 .listSelection {
@@ -111,6 +119,10 @@ border-left: 1px solid rgb(142, 140, 140);
   list-style-type: none;
   margin-left: 30px;
   font-family: Arial, Helvetica, sans-serif;
+  margin-left: 40px;
+}
+.listItem:hover{
+  cursor: pointer;
 }
 
 .cart {
@@ -166,10 +178,12 @@ border-left: 1px solid rgb(142, 140, 140);
   width: 15px;
   height: 15px;
   margin-top: 10px;
+  cursor: pointer;
 }
 .contextMenu p {
   font-size: 12px;
   color: #8c8a8a;
+  cursor: pointer;
 }
 
 /* ---------------------------------- */
@@ -231,6 +245,10 @@ border-left: 1px solid rgb(142, 140, 140);
 
 .textRed {
   color: #fca993;
+}
+
+.textRed:hover{
+  cursor: pointer;
 }
 
 .mainBlock {
@@ -295,30 +313,35 @@ border-left: 1px solid rgb(142, 140, 140);
   width: 30px;
   height: 30px;
   background-color: #eeebe3;
+  cursor: pointer;
 }
 .imageColor2 {
   margin-left: 2px;
   width: 30px;
   height: 30px;
   background-color: #cbc1c7;
+  cursor: pointer;
 }
 .imageColor3 {
   margin-left: 2px;
   width: 30px;
   height: 30px;
   background-color: #b29b89;
+  cursor: pointer;
 }
 .imageColor4 {
   margin-left: 2px;
   width: 30px;
   height: 30px;
   background-color: #978886;
+  cursor: pointer;
 }
 .imageColor5 {
   margin-left: 2px;
   width: 30px;
   height: 30px;
   background-color: #cce1ef;
+  cursor: pointer;
 }
 
 .bottomBlock {
@@ -336,6 +359,7 @@ border-left: 1px solid rgb(142, 140, 140);
   border: 0px;
   box-shadow: 0 3px 0 0 #dd6b44;
   color: white;
+  cursor: pointer;
 }
 .betweenButton {
   height: 50px;
@@ -353,6 +377,7 @@ border-left: 1px solid rgb(142, 140, 140);
   border: 0px;
   box-shadow: 0 3px 0 0 #dd6b44;
   color: white;
+  cursor: pointer;
 }
 .addButton {
   height: 50px;
@@ -362,6 +387,7 @@ border-left: 1px solid rgb(142, 140, 140);
   margin-left: 2%;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
 }
 /* ---------------------------------- */
 .advices {
@@ -380,6 +406,8 @@ border-left: 1px solid rgb(142, 140, 140);
   background: url(imagesSecond/shape_2.png) no-repeat;
   background-position: center;
   margin: 0 auto;
+  margin-left: 40px;
+  cursor: pointer;
 }
 
 .secondAdvice {
@@ -392,6 +420,7 @@ border-left: 1px solid rgb(142, 140, 140);
   background: url(imagesSecond/shape_4.png) no-repeat;
   background-position: center;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 .thirdAdvice {
@@ -404,6 +433,7 @@ border-left: 1px solid rgb(142, 140, 140);
   background: url(imagesSecond//shape_3.png) no-repeat;
   background-position: center;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 .fourthAdvice {
@@ -416,6 +446,7 @@ border-left: 1px solid rgb(142, 140, 140);
   background: url(imagesSecond/email_2.png) no-repeat;
   background-position: center;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 .advices p {
@@ -425,6 +456,7 @@ border-left: 1px solid rgb(142, 140, 140);
   margin-left: 35px;
   margin-top: -8px;
   white-space: nowrap;
+  cursor: pointer;
 }
 /* ---------------------------------- */
 .helpers {
@@ -437,26 +469,31 @@ border-left: 1px solid rgb(142, 140, 140);
   display: flex;
   height: 50px;
   background-color: #ffd4c4;
+  cursor: pointer;
 }
 .secondHelp {
   display: flex;
   height: 50px;
   background-color: #ffcab8;
+  cursor: pointer;
 }
 .thirdHelp {
   display: flex;
   height: 50px;
   background-color: #ffaf91;
+  cursor: pointer;
 }
 .fourthHelp {
   display: flex;
   height: 50px;
   background-color: #fda784;
+  cursor: pointer;
 }
 .fiveHelp {
   display: flex;
   height: 50px;
   background-color: #fe936a;
+  cursor: pointer;
 }
 
 .helpers p {
@@ -942,7 +979,6 @@ border-left: 1px solid rgb(142, 140, 140);
     display: block;
   }
 
-
   .top {
     display: block;
     color: #a49e9e;
@@ -1053,13 +1089,12 @@ border-left: 1px solid rgb(142, 140, 140);
     height: 40px;
   }
   /* -------------------------------- */
-  
 
-  .hotspot{
+  .hotspot {
     margin-top: 30px;
   }
-  
-  .containerSec{
+
+  .containerSec {
     padding: 0px;
   }
 
@@ -1078,7 +1113,7 @@ border-left: 1px solid rgb(142, 140, 140);
     text-align: center;
   }
   /* -------------------------------- */
-  .productsMobile{
+  .productsMobile {
     display: none;
     align-items: center;
     background-color: #ffa687;
@@ -1086,14 +1121,14 @@ border-left: 1px solid rgb(142, 140, 140);
     padding-bottom: 30px;
   }
 
-  .MobileProduct{
+  .MobileProduct {
     width: 100%;
     height: auto;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
   }
 
-  .MobileProduct img{
+  .MobileProduct img {
     width: 80%;
     height: auto;
     margin-top: 30px;
@@ -1101,24 +1136,23 @@ border-left: 1px solid rgb(142, 140, 140);
     margin-right: 30px;
   }
 
-  .costProductMobile{
+  .costProductMobile {
     width: 80%;
     margin-left: 30px;
     margin-right: 30px;
     text-align: center;
     background-color: white;
     margin-top: -5px;
-
   }
-  .firstMobile{
+  .firstMobile {
     margin-top: 5px;
     font-size: 20px;
   }
-  .secondMobile{
+  .secondMobile {
     margin-top: -10px;
     font-size: 30px;
   }
-  .thirdMobile{
+  .thirdMobile {
     margin-top: -20px;
     width: 150px;
     height: 30px;
@@ -1127,14 +1161,14 @@ border-left: 1px solid rgb(142, 140, 140);
     color: white;
     margin-bottom: 10px;
   }
-  .hotspot{
+  .hotspot {
     display: block;
   }
-  .hotspotSec{
+  .hotspotSec {
     display: none;
   }
 
-  .footerSec{
+  .footerSec {
     background: black;
     color: #c7c7c7;
     padding: 20px 0;
@@ -1160,7 +1194,7 @@ border-left: 1px solid rgb(142, 140, 140);
     width: 100%;
   }
 
-  .containerMob{
+  .containerMob {
     width: 100%;
     height: 100%;
     margin: 0px auto;
@@ -1171,41 +1205,41 @@ border-left: 1px solid rgb(142, 140, 140);
     overflow: hidden;
   }
 
-  .textMobFooter{
+  .textMobFooter {
     text-align: center;
   }
   /* -------------------------------- */
-  .leftBlock{
+  .leftBlock {
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 25px;
     border-bottom: 1px solid black;
   }
 
-  .firstImg{
-    margin-bottom: 0px;
-  }
-  .secondImg{
+  .firstImg {
     margin-bottom: 0px;
   }
 
-  .textMain{
+  .textMain {
     margin-top: 20px;
   }
 
-  .preBottonBlock{
+  .preBottonBlock {
     padding-bottom: 15px;
     border-bottom: 1px solid black;
   }
-  .bottomBlock{
+  .bottomBlock {
     padding-bottom: 30px;
+  }
+
+  .secondMainText {
+    margin: 0px;
+    margin-top: 20px;
   }
   /* -------------------------------- */
 }
 
-
 @media (max-width: 472px) {
-
-  .productsMobile{
+  .productsMobile {
     display: block;
   }
 }
