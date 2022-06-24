@@ -19,86 +19,75 @@ body {
   overflow: hidden;
 }
 
+.left {
+  position: relative;
+  text-align: center;
+}
+
+.left p {
+    margin-top: 9px;
+  display: block;
+  color: white;
+  font-size: 11px;
+  white-space: nowrap;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.right {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    padding-left: 15px;
+  }
+
+.UStext{
+    font-size: 11px;
+    color: white;
+    padding-left: 10px;
+}
+.pal{
+height: 35px;
+border-left: 1px solid rgb(142, 140, 140);
+}
+.strVerh{
+    color: white;
+    font-size: 11px;
+    margin-top: 5px;
+    padding-right: 10px;
+}
+
+.accountImg{
+    padding-left: 10px;
+}
+
+.textAccount{
+    color: white;
+    font-size: 11px;
+    padding-right: 10px;
+}
+
+.lupaImg{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.maxHeader {
+  width: 100%;
+  height: 100%;
+  margin: 0px auto;
+  position: relative;
+  max-width: 1000px;
+  padding: 0 15px;
+  overflow: hidden;
+  display: flex;
+}
 .header {
   margin: 0 auto;
   background-color: #000000;
   display: flex;
-  height: 30px;
   width: 100%;
-}
-
-.left {
-  position: relative;
-}
-
-.left p {
-  display: block;
-  color: white;
-  margin-left: 100%;
-  font-size: 11px;
-  text-align: center;
-  white-space: nowrap;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.right {
-  float: right;
-  display: flex;
-  align-items: center;
-  margin-left: 60%;
-  border-left: 1px solid rgb(142, 140, 140);
-  padding-left: 15px;
-}
-.right .text p {
-  display: flex;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0 auto;
-  font-size: 11px;
-  white-space: nowrap;
-}
-
-.dollarImg {
-  display: flex;
-  margin: 0 auto;
-  color: white;
-  margin-left: 3px;
-
-  border-right: 1px solid rgb(142, 140, 140);
-  padding-right: 8px;
-  height: 100%;
-  align-items: center;
-}
-.dollarImg p {
-  padding-bottom: 5px;
-}
-.account {
-  display: flex;
-  margin: 0 auto;
-  margin-left: 5%;
-  padding-right: 5px;
-}
-
-.accountText p {
-  margin-left: 100px;
-  display: flex;
-  margin: 0 auto;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 11px;
-  white-space: nowrap;
-}
-
-.lupa {
-  padding-top: 0px;
-  display: flex;
-  margin: 0 auto;
-  margin-left: 5%;
-  border-right: 1px solid rgb(142, 140, 140);
-  padding-right: 8px;
-  border-left: 1px solid rgb(142, 140, 140);
-  padding-left: 8px;
-  align-items: center;
+  height: 30px;
+  overflow: hidden;
 }
 
 /*-- ------------------------------- --> */
@@ -108,7 +97,6 @@ body {
 
 .logotip {
   margin-top: 3%;
-  margin-left: 7%;
 }
 
 .listSelection {
@@ -237,15 +225,23 @@ body {
 }
 
 .btn {
+  width: 120px;
+  height: 30px;
+  background-color: #fe926c;
+  border: 0px;
+  color: white;
+}
+.btnSecond{  
   height: 28px;
   width: 30px;
   background-color: #ffa687;
   border: none;
   color: white;
   font-size: 25px;
-  margin-left: 101%;
+  margin-left: 100%;
   margin-top: -25px;
   display: flex;
+  padding-left: 7px;
 }
 
 .secondHeader .second {
@@ -332,11 +328,11 @@ body {
 }
 
 .textRightBottom {
-  text-transform: uppercase;
-  position: absolute;
+  display: block;
+
   z-index: 10;
-  margin-top: -140px;
-  margin-left: -90px;
+  margin-top: -70px;
+  margin-left: 00px;
   color: white;
 }
 
@@ -344,6 +340,7 @@ body {
   white-space: pre;
   font-weight: bolder;
   font-size: 22px;
+  margin-top: 150px;
 }
 
 .textRightBottom button {
@@ -354,6 +351,8 @@ body {
   background-position: 100% 0;
   background-size: 300%;
   border: none;
+  margin-top: 5px;
+  margin-left: 20px;
 }
 
 .slogan__circle {
@@ -934,6 +933,10 @@ body {
   .header {
     display: none;
   }
+
+  .emblemOfScale{
+    margin-top: 20px;
+  }
   /* -------------------------------- */
   .mobileHeader {
     width: 100%;
@@ -1193,6 +1196,22 @@ body {
 
   .productsMobile{
     display: block;
+  }
+
+  .badget img{
+    width: 140px;
+  }
+
+  .row{
+    width: 100%;
+  }
+
+  .col-3{
+    width: 50%;
+  }
+
+  .col-3-first{
+    display: none;
   }
 }
 
